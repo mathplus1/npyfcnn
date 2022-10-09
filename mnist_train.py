@@ -39,7 +39,7 @@ if __name__ == '__main__':
     fcnn = FCNN([784, 512, 512, 10], 0.01)
     batch_size = 1000
     max_test_acc = 0
-    for epoch in tqdm(range(200)):
+    for epoch in tqdm(range(400)):
         k=0
         for i in range(0, 60000, batch_size):
             k+=1
