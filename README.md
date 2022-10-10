@@ -12,4 +12,4 @@ git clone and then:
 python mnist_train.py
 
 # result
-after training mnist model about 1 hour, testset acc is about 0.983
+after training mnist model about 1 hour, testset acc is about 0.97
